@@ -4,7 +4,7 @@ import Project from "../components/Project"
 const Projects = (props) => {
   return (
     <>
-      <h1>Projects page</h1>
+      <h1>Projects Page</h1>
       <Project />
     </>
   );
