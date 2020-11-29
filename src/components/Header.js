@@ -1,7 +1,7 @@
 const Header = () => {
 return (
 <>
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav className="navbar navbar-expand-sm navbar-dark bg-dark">
     <a className="navbar-brand" href="/">
       <img src="./Logo.png" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy"/>
       Devon Phillips
@@ -12,7 +12,7 @@ return (
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-        <li className="nav-item active">
+        <li className="nav-item">
           <a className="nav-link" href="/home">Home</a>
         </li>
         <li className="nav-item">

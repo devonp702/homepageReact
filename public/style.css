@@ -32,3 +32,8 @@ p, h2 {
 a {
   color: yellow;
 }
+
+footer img {
+max-height: 40px;
+margin: 3px;
+}

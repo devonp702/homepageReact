@@ -14,7 +14,7 @@ const HomePage = (props) => {
         <h2 className="h2 text-white">About Me</h2>
         <img src="images/top.jpg" className="img-fluid rounded col-6 float-left" alt="Devon and Katheryn smile"/>
         <p className="text-white">
-          Welcome to my home web page. I’m currently enrolled in the full stack web development boot camp at University
+          Welcome to my home web page. I’m currently finishing up the full stack web development boot camp at University
           of Denver. I grew up in California and Oregon, went to school in Idaho, and later moved to Las Vegas for 5
           years. In Idaho, I went to school at Brigham Young University- Idaho, where I met my wife, and graduated with
           a B.A. in Spanish Education with a minor in TESOL. I worked in the school system in various positions for 5
@@ -30,7 +30,7 @@ const HomePage = (props) => {
           enjoy go, and richii mah-jongg. I feel like web development, and programming are the perfect combination of
           art and logic. I have been playing with code since I was a kid, making little files in apple-script. I am
           learning web development in class, but am also interested in python, swift, computer learning, and making text
-          based RPG games. Please feel free to explore the site.
+          based RPG games. I build websites using  Please feel free to explore the site.
         </p>
       </div>
       <div className="col-12 col-lg-4">
@@ -43,7 +43,7 @@ const HomePage = (props) => {
           <li><a href="https://stackoverflow.com/users/14089963/devon-phillips" target="_blank" rel="noreferrer">Stack Overflow</a></li>
           <li><a href="https://steamcommunity.com/profiles/76561198037755410/" target="_blank" rel="noreferrer">Steam</a></li>
           <li><a href="https://soundcloud.com/jaakukaba" target="_blank" rel="noreferrer">Soundcloud</a></li>
-          <li><a href="assets/dpres.pdf">My Resume</a></li>
+          <li><a href="dpres.pdf">My Resume</a></li>
         </ul>
       </div>
     </div>
