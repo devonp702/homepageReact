@@ -3,7 +3,7 @@ return (
 <>
 <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
     <a className="navbar-brand" href="/">
-      <img src="/homepageReact/Logo.png" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy"/>
+      <img src="/Logo.png" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy"/>
       Devon Phillips
     </a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
