@@ -6,7 +6,7 @@ const Projects = () => {
     <>
       <h1>Projects Page</h1>
       <div className="container">
-      <p class="text-white">
+      <p className="text-white">
           These are my recent coding projects. This is where my future projects will also be posted as I finish them. Github Links are provided for projects where they exist. Please look at the README files for more information.
         </p>
         <div className="row">

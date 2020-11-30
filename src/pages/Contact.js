@@ -16,18 +16,18 @@ const Contact = (props) => {
         </p>
       </div>
       </div>
-      <form id="myForm" onsubmit="handleFormSubmit(this)">
+      <form id="myForm" onSubmit="handleFormSubmit(this)">
       <p className="h4 mb-4 text-center">Contact Details</p>
       <div className="form-group">
-        <label className="text-white" for="email">Email Address:</label>
+        <label className="text-white" htmlFor="email">Email Address:</label>
         <input type="email" className="form-control" id="email" name="email" placeholder="example@email.com" />
       </div>
       <div className="form-group">
-        <lable className="text-white" for="name">Name:</lable>
+        <lable className="text-white" htmlFor="name">Name:</lable>
         <input className="form-control" id="name" name="name" type="text" placeholder="Your Name" />
       </div>
       <div className="form-group">
-        <label className="text-white" for="writeMe">Message:</label>
+        <label className="text-white" htmlFor="writeMe">Message:</label>
         <textarea className="form-control" id="writeMe" name="writeMe" rows="3"></textarea>
       </div>
       <button type="submit" className="btn btn-dark btn-block">Submit</button>
