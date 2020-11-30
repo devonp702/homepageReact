@@ -12,7 +12,7 @@ const HomePage = (props) => {
     <div className="row">
       <div className="col-12 col-lg-8">
         <h2 className="h2 text-white">About Me</h2>
-        <img src="images/top.jpg" className="img-fluid rounded col-6 float-left" alt="Devon and Katheryn smile"/>
+        <img src='homepageReact/images/top.jpg' className="img-fluid rounded col-6 float-left" alt="Devon and Katheryn smile"/>
         <p className="text-white">
           Welcome to my home web page. I’m currently finishing up the full stack web development boot camp at University
           of Denver. I grew up in California and Oregon, went to school in Idaho, and later moved to Las Vegas for 5
@@ -22,7 +22,7 @@ const HomePage = (props) => {
           program, and training a new maintenance hire. My daughter was born soon after, and we all moved to Colorado
           where I am now.
         </p>
-        <img src="images/bbnme.jpg" className="img-fluid rounded col-6 float-right"
+        <img src="homepageReact/images/bbnme.jpg" className="img-fluid rounded col-6 float-right"
           alt="Devon smiles, baby makes a fierce face"/>
         <p className="text-white">
           I am always happy to learn something new, and enjoy working on something creative. In my spare time, I play
@@ -43,7 +43,7 @@ const HomePage = (props) => {
           <li><a href="https://stackoverflow.com/users/14089963/devon-phillips" target="_blank" rel="noreferrer">Stack Overflow</a></li>
           <li><a href="https://steamcommunity.com/profiles/76561198037755410/" target="_blank" rel="noreferrer">Steam</a></li>
           <li><a href="https://soundcloud.com/jaakukaba" target="_blank" rel="noreferrer">Soundcloud</a></li>
-          <li><a href="dpres.pdf">My Resume</a></li>
+          <li><a href="homepageReact/dpres.pdf">My Resume</a></li>
         </ul>
       </div>
     </div>

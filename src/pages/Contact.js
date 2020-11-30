@@ -12,7 +12,7 @@ const Contact = (props) => {
       </div>
       <div className="col-12 col-lg-6">
         <p className="text-white lead">
-         Thank you for stopping by. Please send me a message, and I'll get back to you as soon as I can.
+          Thank you for stopping by. Please send me a message, and I'll get back to you as soon as I can.
         </p>
       </div>
       </div>
@@ -30,7 +30,7 @@ const Contact = (props) => {
         <label className="text-white" for="writeMe">Message:</label>
         <textarea className="form-control" id="writeMe" name="writeMe" rows="3"></textarea>
       </div>
-      <button type="submit" class="btn btn-dark btn-block">Submit</button>
+      <button type="submit" className="btn btn-dark btn-block">Submit</button>
     </form>
     </div>
   );
