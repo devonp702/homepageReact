@@ -33,6 +33,11 @@ a {
   color: yellow;
 }
 
+div.card {
+  width: 18rem;
+  margin: 5px;
+}
+
 footer img {
 max-height: 40px;
 margin: 3px;
