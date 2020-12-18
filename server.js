@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === "production") {
 }
 app.use(cors());
 // Send every request to the React app
-app.post('/send*', (req, res, next) => {
+app.post('/send', (req, res, next) => {
   var name = req.body.name
   var email = req.body.email
   var message = req.body.message
@@ -23,8 +23,10 @@ app.post('/send*', (req, res, next) => {
     subject: 'New Message from Contact Form',
     text: content
   }
-
-fs.appendFile('message.txt', 'mail', (err) =>{
+  console.log(mail)
+});
+function saveFile (file){
+fs.appendFile('./message.json', file, (err) =>{
   if (err) {
     res.json({
       status: 'fail'
@@ -35,8 +37,7 @@ fs.appendFile('message.txt', 'mail', (err) =>{
     })
   }
 });
-});
-
+}
 // Define any API routes before this runs
 app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
